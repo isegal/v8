@@ -2887,6 +2887,7 @@ v8_source_set("wasm_module_runner") {
 
 v8_source_set("wasm_test_signatures") {
   sources = [
+    "test/common/wasm/test-signatures.cc",
     "test/common/wasm/test-signatures.h",
   ]
 
